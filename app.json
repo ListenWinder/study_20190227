@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/kuaidi/kuaidi",
+    "pages/study1/study1",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ddd",
+    "navigationBarTitleText": "快递查询",
+    "navigationBarTextStyle":"white"
+  },
+
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1E90FF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/kuaidi/kuaidi",
+        "text": "快递查询",
+        "iconPath":"/image/express_unselected.png",
+        "selectedIconPath":"/image/express_selected.png"
+      },
+      {
+        "pagePath": "pages/study1/study1",
+        "text": "学习",
+        "iconPath": "/image/study_line_unselected.png",
+        "selectedIconPath": "/image/study_line_selected.png"
+      }
+    ]
+  }
+}

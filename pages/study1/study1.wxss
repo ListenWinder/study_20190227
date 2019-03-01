@@ -1,0 +1,18 @@
+/* pages/study1/study1.wxss */
+button{margin: 10px}
+
+/* .container{
+  width: 100%;
+
+} */
+
+.title{
+  width: 100%;
+  height: 80rpx; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  
+}

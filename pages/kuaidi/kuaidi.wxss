@@ -1,0 +1,23 @@
+/* pages/kuaidi/kuaidi.wxss */
+input{
+  border: 1rpx solid greenyellow;
+  width: 90%;
+  padding: 10rpx;
+  margin: 10px;
+}
+
+button{
+  margin: 10px;
+}
+
+.expressView{
+  padding: 10px
+}
+
+.scrollView{
+  height: 80%;
+}
+
+.select{
+  margin: 10rpx
+}

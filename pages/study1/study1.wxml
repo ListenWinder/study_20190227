@@ -1,0 +1,10 @@
+<!--pages/study1/study1.wxml-->
+<include src="../templates/header"/>
+<button 
+type="primary" 
+size="{{defaultSize}}" 
+bindtap='changeText' >changeText</button>
+<text wx:if="{{textVisible}}">{{text}}</text>
+<text wx:else>{{text}} </text>
+<button bindtap='navigation'  >页面跳转</button>
+<!-- <view wx:for="{{news}}" wx:for-item="new_item">{{index}}--{{new_item}}</view> -->
